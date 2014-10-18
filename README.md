@@ -1,5 +1,7 @@
-GWT App for DevFest NE 2014 / Aracaju-Brazil
+Sample GWT App for DevFest NE 2014 / Aracaju-Brazil
 ====================
+
+A simple twitter application made upon some of the best features of GWT.
 
 Features
 -------------
@@ -16,8 +18,6 @@ Features
 * Bootstrap & jQuery integration
 * RPC with asynchronous interface auto generation
 * SuperDevMode
-
-A simple twitter application made upon some of the best features of GWT.
 
 How to use
 ----------
