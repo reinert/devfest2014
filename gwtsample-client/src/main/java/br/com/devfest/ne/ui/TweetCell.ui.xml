@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
+    <ui:with field="tweet" type="br.com.devfest.ne.model.Tweet" />
+    <ui:with field="res" type="br.com.devfest.ne.resources.Resources"/>
+
+    <div class="{res.style.tweetWrapper}">
+        <div class="{res.style.tweetHeader}">
+            <h4><ui:text from="{tweet.getUserName}"/></h4>
+        </div>
+        <div class="{res.style.tweetContent}">
+            <p><ui:text from="{tweet.getMessage}"/></p>
+        </div>
+    </div>
+</ui:UiBinder>
