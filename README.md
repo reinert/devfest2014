@@ -1,5 +1,21 @@
-Sample GWT App for DevFest NE 2014 / Aracaju-Brazil
+GWT App for DevFest NE 2014 / Aracaju-Brazil
 ====================
+
+Features
+-------------
+
+* Activities & Places
+* MVP Design
+* Events and EventBus
+* History Management
+* UiBinder
+* UiRenderer
+* CellWidgets (CellList)
+* ClientBundle, CssResource with auto generation
+* JSNI (native javascript manipulation)
+* Bootstrap & jQuery integration
+* RPC with asynchronous interface auto generation
+* SuperDevMode
 
 A simple twitter application made upon some of the best features of GWT.
 
@@ -44,19 +60,3 @@ browser in production mode, use `mvn package -Dgwt.draftCompile`. You can use
 `mvn package -Dgwt.draftCompile -pl :${rootArtifactId}-client -am` while the
 Jetty server is running (launched by `cd *-server && mvn jetty:start -Ddev`),
 and then simply hit `F5` in your browser.
-
-Features
--------------
-
-* Activities & Places
-* MVP Design
-* Events and EventBus
-* History Management
-* UiBinder
-* UiRenderer
-* CellWidgets (CellList)
-* ClientBundle, CssResource with auto generation
-* JSNI (native javascript manipulation)
-* Bootstrap & jQuery integration
-* RPC with asynchronous interface auto generation
-* SuperDevMode
