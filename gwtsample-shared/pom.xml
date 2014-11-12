@@ -38,29 +38,6 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>add-shared-sources-to-classpath</id>
-                        <!-- After 'process-resources' so they're not copied to ${project.build.outputDirectory} -->
-                        <!-- But before 'compile' to make them available to 'gwt:run' -->
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>add-resource</goal>
-                        </goals>
-                        <configuration>
-                            <resources>
-                                <!-- Only sources, resources are already in the classpath, by definition -->
-                                <resource>
-                                    <directory>${basedir}/target/generated-sources/gwt</directory>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <artifactId>maven-source-plugin</artifactId>
             </plugin>
         </plugins>
